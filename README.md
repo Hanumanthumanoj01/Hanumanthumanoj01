@@ -1,16 +1,92 @@
-# 💫 About Me:
-🔭 I’m currently working on<br><br>I’m currently working as a Working Student at Deutsche Börse Group, where I focus on production support, system stability, and cloud-based troubleshooting. My role involves handling client-facing technical issues, analyzing logs from Elasticsearch, and resolving incidents related to performance, access management, and trade processing.<br><br>Previously, I also worked on log pipeline migration and automation using Python and FastAPI, which strengthened my skills in observability and reliability engineering.<br><br>👯 I’m looking to collaborate on<br><br>I’m looking to collaborate on cloud infrastructure, DevOps automation, and reliability-focused projects, especially those involving:<br><br>AWS-based system design<br>CI/CD pipeline optimization<br>Monitoring, alerting, and incident response systems<br>Open-source tools in the SRE ecosystem<br><br>I’m particularly interested in projects where I can contribute to improving system uptime, scalability, and operational efficiency.<br><br>🤝 I’m looking for help with<br><br>I’m looking for help with advancing deeper into:<br><br>Site Reliability Engineering practices (SLIs, SLOs, error budgets)<br>Kubernetes and container orchestration<br>Advanced cloud security and IAM/PAM architectures<br>Designing highly scalable and fault-tolerant distributed systems<br>🌱 I’m currently learning<br><br>I’m currently learning and improving my skills in:<br><br>Kubernetes and container-based deployments<br>Advanced AWS architecture and cloud security<br>Observability tools (metrics, tracing, logging)<br>Infrastructure as Code best practices (Terraform, CloudFormation)<br>💬 Ask me about<br><br>Ask me about:<br><br>AWS (EC2, S3, IAM, VPC, CloudWatch)<br>CI/CD pipelines (GitLab CI, AWS CodePipeline)<br>Log analysis with Elasticsearch & Kibana<br>Troubleshooting production issues and root cause analysis<br>IAM, RBAC, and secure access management<br>⚡ Fun fact<br><br>I enjoy solving complex production issues under pressure—there’s something satisfying about debugging a critical system problem and restoring stability quickly. I’ve also worked across DevOps, data engineering, and client-facing roles, giving me a well-rounded perspective on building reliable systems.
+# 💫 About Me
+**SRE & Cloud Engineer | AWS | DevOps | Building Reliable Systems & Automating Everything**
+
+🔭 **Currently:**  
+Keeping systems alive (and clients calm 😄) at 360T - Deutsche Börse Group — working on production support, cloud troubleshooting, and log analysis with Elasticsearch.
+
+👯 **Looking to collaborate on:**  
+Cloud, DevOps & SRE projects — anything involving AWS, CI/CD, automation, and making sure things *don’t break at 2 AM*.
+
+🤝 **Need help with:**  
+Kubernetes, SRE practices (SLIs/SLOs), and designing fault-tolerant distributed systems.
+
+🌱 **Currently learning:**  
+Kubernetes, advanced AWS, observability, and smarter automation (because manual work is overrated 😉).
+
+💬 **Ask me about:**  
+AWS, CI/CD pipelines, debugging production issues, Elasticsearch, IAM, and root cause analysis.
+
+⚡ **Fun fact:**  
+I enjoy debugging production issues — it’s basically solving puzzles, just with a bit more pressure 😄.
 
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/hanumanthu_manoj) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Manoj Hanumanthu) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:hanumanthumanoj27@gmail.com) 
+## 🌐 Connect with me:
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Elasticsearch](https://img.shields.io/badge/elasticsearch-%230377CC.svg?style=for-the-badge&logo=elasticsearch&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) ![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=InfluxDB&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![CrateDB](https://img.shields.io/badge/CrateDB-009DC7?style=for-the-badge&logo=CrateDB&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Sentry](https://img.shields.io/badge/sentry-%23362D59.svg?style=for-the-badge&logo=sentry&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Elasticsearch](https://img.shields.io/badge/elasticsearch-%230377CC.svg?style=for-the-badge&logo=elasticsearch&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=for-the-badge&logo=elasticsearch) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Hanumanthumanoj01&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Hanumanthumanoj01&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Hanumanthumanoj01&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manoj-hanumanthu/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=githubpages&logoColor=white)](https://hanumanthumanoj01.github.io/Portfolio/)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:hanumanthumanoj27@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/hanumanthu_manoj/)
+
+
+# 💻 Tech Stack (SRE | DevOps | Cloud | Production Support)
+
+## ☁️ Cloud & Infrastructure
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![CloudFormation](https://img.shields.io/badge/CloudFormation-%23FF9900.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-%235C4EE5.svg?style=for-the-badge&logo=terraform&logoColor=white)
+
+## ⚙️ DevOps & CI/CD
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
+
+## 🐳 Containers & Orchestration
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+
+## 📊 Monitoring, Logging & Observability
+![Elasticsearch](https://img.shields.io/badge/elasticsearch-%230377CC.svg?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![Kibana](https://img.shields.io/badge/kibana-%23000000.svg?style=for-the-badge&logo=kibana&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-%23FF9900.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Sentry](https://img.shields.io/badge/sentry-%23362D59.svg?style=for-the-badge&logo=sentry&logoColor=white)
+
+## 🔍 Production Support & Incident Management
+![Freshdesk](https://img.shields.io/badge/Freshdesk-%2300A651.svg?style=for-the-badge&logo=freshdesk&logoColor=white)
+![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
+![Confluence](https://img.shields.io/badge/confluence-%230172B6.svg?style=for-the-badge&logo=confluence&logoColor=white)
+
+**Skills:** Incident Management • Root Cause Analysis • Log Analysis • Client Support • SLA Handling • Escalation Management
+
+## 🔐 Security & IAM
+![AWS IAM](https://img.shields.io/badge/IAM-%23FF9900.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
+![RBAC](https://img.shields.io/badge/RBAC-%230A0FFF.svg?style=for-the-badge&logo=security&logoColor=white)
+![MFA](https://img.shields.io/badge/MFA-%23FF0000.svg?style=for-the-badge&logo=auth0&logoColor=white)
+
+## 💻 Programming & Scripting
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![PowerShell](https://img.shields.io/badge/powershell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+
+## 🗄️ Databases & Data Systems
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/elasticsearch-%230377CC.svg?style=for-the-badge&logo=elasticsearch&logoColor=white)
+
+## 🧪 Testing & APIs
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+
+## 🚀 Backend & Automation
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+
+---
+
+# 📊 GitHub Stats
+
+![](https://github-readme-stats.vercel.app/api?username=Hanumanthumanoj01&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/> ![](https://nirzak-streak-stats.vercel.app/?user=Hanumanthumanoj01&theme=dark&hide_border=false)<br/> ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Hanumanthumanoj01&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=Hanumanthumanoj01&icon=0&color=0)](https://visitcount.itsvg.in)
