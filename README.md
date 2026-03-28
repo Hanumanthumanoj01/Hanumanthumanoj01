@@ -1,94 +1,372 @@
-# 💫 About Me
-**SRE & Cloud Engineer | AWS | DevOps | Building Reliable Systems & Automating Everything**
+<div align="center">
 
-🔭 **Currently:**  
-Keeping systems alive (and clients calm 😄) at 360T - Deutsche Börse Group — working on production support, cloud troubleshooting, and log analysis with Elasticsearch.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Manoj%20Hanumanthu&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=38&desc=SRE%20%E2%80%A2%20Cloud%20Engineer%20%E2%80%A2%20AWS%20%E2%80%A2%20DevOps&descAlignY=60&descSize=22"/>
 
-👯 **Looking to collaborate on:**  
-Cloud, DevOps & SRE projects — anything involving AWS, CI/CD, automation, and making sure things *don’t break at 2 AM*.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&width=800&lines=%F0%9F%9F%A2+Keeping+production+alive+since+day+one;%F0%9F%9B%A0%EF%B8%8F+SRE+%40+360T+%E2%80%94+Deutsche+B%C3%B6rse+Group;%E2%9A%A1+Debugging+at+2AM+so+YOU+don%27t+have+to;%F0%9F%94%AD+AWS+%7C+Kubernetes+%7C+ELK+%7C+Terraform;%F0%9F%9A%80+Turning+chaos+into+uptime%2C+one+alert+at+a+time)](https://git.io/typing-svg)
 
-🤝 **Need help with:**  
-Kubernetes, SRE practices (SLIs/SLOs), and designing fault-tolerant distributed systems.
+<br/>
 
-🌱 **Currently learning:**  
-Kubernetes, advanced AWS, observability, and smarter automation (because manual work is overrated 😉).
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manoj-hanumanthu/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00D9FF?style=for-the-badge&logo=githubpages&logoColor=black)](https://hanumanthumanoj01.github.io/Portfolio/)
+[![Gmail](https://img.shields.io/badge/Email-Hire%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hanumanthumanoj27@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/hanumanthu_manoj/)
+[![Profile Views](https://komarev.com/ghpvc/?username=Hanumanthumanoj01&label=Profile+Views&color=00D9FF&style=for-the-badge)](https://github.com/Hanumanthumanoj01)
 
-💬 **Ask me about:**  
-AWS, CI/CD pipelines, debugging production issues, Elasticsearch, IAM, and root cause analysis.
+</div>
 
-⚡ **Fun fact:**  
-I enjoy debugging production issues — it’s basically solving puzzles, just with a bit more pressure 😄.
+---
 
+<img align="right" width="360" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding gif"/>
 
-## 🌐 Connect with me:
+### 👋 Hey, I'm Manoj!
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manoj-hanumanthu/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=githubpages&logoColor=white)](https://hanumanthumanoj01.github.io/Portfolio/)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:hanumanthumanoj27@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/hanumanthu_manoj/)
+I'm a **Site Reliability Engineer & Cloud Engineer** based in **Frankfurt 🇩🇪**, keeping mission-critical financial systems running at **360T — Deutsche Börse Group**.
 
+**What I do every day:**
+- 🔥 **Incident triage** — before clients even notice
+- 📊 **Log forensics** — Elasticsearch/Kibana deep dives
+- ☁️ **AWS infra** — architecture, IAM, cost control
+- 🤖 **Automation** — eliminating toil, one script at a time
 
-# 💻 Tech Stack (SRE | DevOps | Cloud | Production Support)
+> *"Every incident is a lesson. Every postmortem is a gift."*
 
-## ☁️ Cloud & Infrastructure
+<br clear="right"/>
+
+---
+
+```yaml
+# manoj.config.yaml
+name:     Manoj Hanumanthu
+role:     SRE & Cloud Engineer
+company:  360T — Deutsche Börse Group 🏢
+location: Frankfurt am Main, Germany 🇩🇪
+
+stack:
+  cloud:         [ AWS, CloudFormation, Terraform ]
+  ci_cd:         [ GitLab CI, GitHub Actions, Jenkins ]
+  containers:    [ Docker, Kubernetes ]
+  observability: [ Elasticsearch, Kibana, CloudWatch, Sentry ]
+  languages:     [ Python, Bash, Java, PowerShell ]
+  itsm:          [ Freshdesk, Jira, Confluence ]
+
+learning_now:
+  - Kubernetes → CKA Certification 🎯
+  - SLI / SLO Design & Error Budgets
+  - Prometheus + Grafana observability
+  - Distributed systems & chaos engineering
+
+fun_fact: >
+  I genuinely enjoy debugging production incidents.
+  Detective work — but the clues are stack traces
+  and everyone's watching the clock 🔍🔥
+```
+
+---
+
+<h2 align="center">⚙️ Tech Arsenal</h2>
+
+<div align="center">
+
+**☁️ Cloud & Infrastructure**
+
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![CloudFormation](https://img.shields.io/badge/CloudFormation-%23FF9900.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-%235C4EE5.svg?style=for-the-badge&logo=terraform&logoColor=white)
 
-## ⚙️ DevOps & CI/CD
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
+**⚡ CI/CD & DevOps**
 
-## 🐳 Containers & Orchestration
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
 
-## 📊 Monitoring, Logging & Observability
-![Elasticsearch](https://img.shields.io/badge/elasticsearch-%230377CC.svg?style=for-the-badge&logo=elasticsearch&logoColor=white)
-![Kibana](https://img.shields.io/badge/kibana-%23000000.svg?style=for-the-badge&logo=kibana&logoColor=white)
+**🐳 Containers & Orchestration**
+
+![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+
+**📊 Observability & Monitoring**
+
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-%230377CC.svg?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![Kibana](https://img.shields.io/badge/Kibana-%23005571.svg?style=for-the-badge&logo=kibana&logoColor=white)
 ![CloudWatch](https://img.shields.io/badge/CloudWatch-%23FF9900.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Sentry](https://img.shields.io/badge/sentry-%23362D59.svg?style=for-the-badge&logo=sentry&logoColor=white)
+![Sentry](https://img.shields.io/badge/Sentry-%23362D59.svg?style=for-the-badge&logo=sentry&logoColor=white)
 
-## 🔍 Production Support & Incident Management
-![Freshdesk](https://img.shields.io/badge/Freshdesk-%2300A651.svg?style=for-the-badge&logo=freshdesk&logoColor=white)
-![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
-![Confluence](https://img.shields.io/badge/confluence-%230172B6.svg?style=for-the-badge&logo=confluence&logoColor=white)
+**🔐 Security & IAM**
 
-**Skills:** Incident Management • Root Cause Analysis • Log Analysis • Client Support • SLA Handling • Escalation Management
+![AWS IAM](https://img.shields.io/badge/AWS%20IAM-%23FF9900.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
+![RBAC](https://img.shields.io/badge/RBAC-Enforced-%230A0FFF.svg?style=for-the-badge&logo=auth0&logoColor=white)
+![MFA](https://img.shields.io/badge/MFA-Always%20On-%23DD0000.svg?style=for-the-badge&logo=authy&logoColor=white)
 
-## 🔐 Security & IAM
-![AWS IAM](https://img.shields.io/badge/IAM-%23FF9900.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
-![RBAC](https://img.shields.io/badge/RBAC-%230A0FFF.svg?style=for-the-badge&logo=security&logoColor=white)
-![MFA](https://img.shields.io/badge/MFA-%23FF0000.svg?style=for-the-badge&logo=auth0&logoColor=white)
+**💻 Languages & Scripting**
 
-## 💻 Programming & Scripting
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![PowerShell](https://img.shields.io/badge/powershell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Bash](https://img.shields.io/badge/Bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 
-## 🗄️ Databases & Data Systems
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/elasticsearch-%230377CC.svg?style=for-the-badge&logo=elasticsearch&logoColor=white)
+**🗄️ Databases & APIs**
 
-## 🧪 Testing & APIs
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-
-## 🚀 Backend & Automation
+![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-%2343B02A.svg?style=for-the-badge&logo=selenium&logoColor=white)
+
+**🎫 Incident & ITSM Tools**
+
+![Freshdesk](https://img.shields.io/badge/Freshdesk-%2300A651.svg?style=for-the-badge&logo=freshdesk&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
+![Confluence](https://img.shields.io/badge/Confluence-%230172B6.svg?style=for-the-badge&logo=confluence&logoColor=white)
+
+</div>
 
 ---
 
-# 📊 GitHub Stats
+<h2 align="center">📊 GitHub Stats</h2>
 
-![](https://github-readme-stats.vercel.app/api?username=Hanumanthumanoj01&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/> ![](https://nirzak-streak-stats.vercel.app/?user=Hanumanthumanoj01&theme=dark&hide_border=false)<br/> ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Hanumanthumanoj01&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+> ⚠️ **Stats showing zeros or not loading?** See the [Self-Hosted Stats Setup](#-one-time-setup--fix-everything-permanently) section below. It takes 5 minutes and fixes it permanently — your stats are then served from YOUR OWN repo, not a rate-limited public API.
+
+<div align="center">
+
+<!--
+  After running the stats GitHub Action once, these paths will work:
+  They point to SVG files generated inside YOUR OWN REPO — no rate limits ever.
+-->
+<img width="49%" src="./assets/stats.svg" alt="GitHub Stats" onerror="this.style.display='none'"/>
+<img width="41%" src="./assets/langs.svg" alt="Top Languages" onerror="this.style.display='none'"/>
+
+</div>
+
+<div align="center">
+
+<!-- Streak stats — most reliable external service available -->
+<img width="65%" src="https://github-readme-streak-stats.herokuapp.com?user=Hanumanthumanoj01&theme=tokyonight&hide_border=true&fire=FF6B6B&ring=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak"/>
+
+</div>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Hanumanthumanoj01&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<h2 align="center">📈 Contribution Graph</h2>
+
+<div align="center">
+
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Hanumanthumanoj01&theme=tokyo-night&hide_border=true&area=true&color=00D9FF&line=302b63&point=00D9FF" alt="Contribution Graph"/>
+
+</div>
+
+---
+
+<h2 align="center">🏆 GitHub Trophies</h2>
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Hanumanthumanoj01&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=4&row=2" width="96%" alt="GitHub Trophies"/>
+
+</div>
+
+---
+
+<h2 align="center">🐍 Contribution Snake</h2>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Hanumanthumanoj01/Hanumanthumanoj01/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hanumanthumanoj01/Hanumanthumanoj01/output/github-contribution-grid-snake.svg"/>
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Hanumanthumanoj01/Hanumanthumanoj01/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+</picture>
+
+</div>
+
+---
+
+<h2 align="center">🎯 2025 Roadmap</h2>
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                    MANOJ'S 2025 BATTLE PLAN                     ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  ✅  Production SRE @ 360T — Deutsche Börse Group               ║
+║  ✅  ELK Stack mastery & advanced log analysis                  ║
+║  ✅  AWS Cloud Infrastructure & IAM hardening                   ║
+║  ✅  CI/CD pipelines — GitLab CI & GitHub Actions               ║
+║                                                                  ║
+║  🔄  Kubernetes → CKA Certification (in progress)              ║
+║  🔄  SLI / SLO design & Error Budget frameworks                ║
+║  🔄  Prometheus + Grafana observability stack                   ║
+║                                                                  ║
+║  📌  AWS Solutions Architect — Professional                     ║
+║  📌  Chaos Engineering & fault-tolerance design                 ║
+║  📌  Multi-region AWS architecture patterns                     ║
+║  📌  Open source SRE tools contributions                        ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+<h2 align="center">💡 SRE Philosophy</h2>
+
+<div align="center">
+
+| Principle | My Take |
+|:---------:|:-------:|
+| 🎯 **Reliability** | It's a feature, not an afterthought |
+| 📉 **Downtime** | It's a bug — treat it like one |
+| 🤖 **Automation** | Do it twice? Then automate it |
+| 📋 **Postmortems** | Blameless, actionable, honest |
+| 🚨 **On-call** | Alerts should be rare and actionable |
+| 📊 **Observability** | You can't fix what you can't see |
+
+> *"Reliability is a feature. Downtime is a bug. Automation is the cure."*
+
+> *"The best incident is the one that never happens."*
+
+</div>
+
+---
+
+<h2 align="center">🤝 Let's Build Something Reliable Together</h2>
+
+<div align="center">
+
+I'm always open to connecting on:
+
+💬 **SRE, cloud, and reliability engineering discussions**
+🛠️ **DevOps & automation project collaborations**
+🎯 **System design reviews and architecture feedback**
+📚 **Learning together — especially Kubernetes & distributed systems**
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Manoj%20Hanumanthu-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manoj-hanumanthu/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-See%20My%20Work-00D9FF?style=for-the-badge&logo=githubpages&logoColor=black)](https://hanumanthumanoj01.github.io/Portfolio/)
+[![Email](https://img.shields.io/badge/Email-Let's%20Talk-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hanumanthumanoj27@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=140&section=footer&animation=twinkling"/>
+
+**⭐ If you find my work useful — drop a star, it keeps me going!**
+
+<img src="https://komarev.com/ghpvc/?username=Hanumanthumanoj01&label=👁️+Visitors&color=00D9FF&style=flat-square"/>
+
+*Crafted with ❤️ + ☕ by Manoj Hanumanthu — Frankfurt 🇩🇪*
+
+</div>
+
+---
+
+## ⚡ One-Time Setup — Fix Everything Permanently
+
+<details>
+<summary><b>📊 Step 1 — Self-hosted Stats (fixes the 0s forever)</b></summary>
+
+**Why:** The public `github-readme-stats.vercel.app` is rate-limited and shows zeros for many accounts. This generates your own SVG files stored directly in your repo — no external dependency ever again.
+
+Create `.github/workflows/stats.yml`:
+
+```yaml
+name: Generate GitHub Stats SVGs
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats SVG
+        uses: anuraghazra/github-readme-stats@latest
+        with:
+          username: Hanumanthumanoj01
+          commit_message: "chore: update stats SVGs"
+          output_folder: assets
+          cardType: stats
+          theme: tokyonight
+          hide_border: true
+          show_icons: true
+          count_private: true
+          include_all_commits: true
+        env:
+          INPUT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top-langs SVG
+        uses: anuraghazra/github-readme-stats@latest
+        with:
+          username: Hanumanthumanoj01
+          commit_message: "chore: update langs SVG"
+          output_folder: assets
+          cardType: top-langs
+          theme: tokyonight
+          hide_border: true
+          layout: compact
+        env:
+          INPUT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+**Then:**
+1. Go to repo **Settings → Actions → General**
+2. Set **Workflow permissions** to **Read and write**
+3. Go to **Actions tab → Generate GitHub Stats SVGs → Run workflow**
+4. Done — `./assets/stats.svg` and `./assets/langs.svg` are now in your repo
+
+</details>
+
+<details>
+<summary><b>🐍 Step 2 — Contribution Snake animation</b></summary>
+
+Create `.github/workflows/snake.yml`:
+
+```yaml
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: Hanumanthumanoj01
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+Run it manually once from the Actions tab to generate the SVG on the `output` branch.
+
+</details>
+
+<details>
+<summary><b>🏆 Step 3 — If Trophies still don't load</b></summary>
+
+Replace the trophy image URL with this mirror:
+
+```
+https://github-profile-trophy.vercel.app/?username=Hanumanthumanoj01&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=4&row=2
+```
+
+If still blank, it means your account doesn't have enough GitHub activity for trophies to render yet. Keep committing and they'll appear!
+
+</details>
