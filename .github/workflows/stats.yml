@@ -1,1 +1,40 @@
-.github/workflows/stats.yml
+name: Generate GitHub Stats SVGs
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats SVG
+        uses: anuraghazra/github-readme-stats@latest
+        with:
+          username: Hanumanthumanoj01
+          commit_message: "chore: update stats SVGs"
+          output_folder: assets
+          cardType: stats
+          theme: tokyonight
+          hide_border: true
+          show_icons: true
+          count_private: true
+          include_all_commits: true
+        env:
+          INPUT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top-langs SVG
+        uses: anuraghazra/github-readme-stats@latest
+        with:
+          username: Hanumanthumanoj01
+          commit_message: "chore: update langs SVG"
+          output_folder: assets
+          cardType: top-langs
+          theme: tokyonight
+          hide_border: true
+          layout: compact
+        env:
+          INPUT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
