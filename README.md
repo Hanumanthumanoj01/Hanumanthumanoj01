@@ -132,8 +132,9 @@ fun_fact: >
   After running the stats GitHub Action once, these paths will work:
   They point to SVG files generated inside YOUR OWN REPO — no rate limits ever.
 -->
-<img width="49%" src="./assets/stats.svg" alt="GitHub Stats" onerror="this.style.display='none'"/>
-<img width="41%" src="./assets/langs.svg" alt="Top Languages" onerror="this.style.display='none'"/>
+<img width="49%" src="https://raw.githubusercontent.com/Hanumanthumanoj01/Hanumanthumanoj01/main/assets/stats.svg"/ alt="GitHub Stats" onerror="this.style.display='none'"/>
+<img width="41%" src="https://raw.githubusercontent.com/Hanumanthumanoj01/Hanumanthumanoj01/main/assets/top-langs.svg"/  alt="Top Languages" onerror="this.style.display='none'"/>
+
 
 </div>
 
@@ -160,8 +161,7 @@ fun_fact: >
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Hanumanthumanoj01&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=4&row=2" width="96%" alt="GitHub Trophies"/>
-
+<img src="https://github-profile-trophy.vercel.app/?username=Hanumanthumanoj01&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=4&row=2&cache_seconds=86400" width="96%"/>
 </div>
 
 ---
@@ -256,117 +256,8 @@ I'm always open to connecting on:
 
 <img src="https://komarev.com/ghpvc/?username=Hanumanthumanoj01&label=👁️+Visitors&color=00D9FF&style=flat-square"/>
 
-*Crafted with ❤️ + ☕ by Manoj Hanumanthu — Frankfurt 🇩🇪*
+*Crafted by Manoj Hanumanthu — Frankfurt 🇩🇪*
 
 </div>
 
 ---
-
-## ⚡ One-Time Setup — Fix Everything Permanently
-
-<details>
-<summary><b>📊 Step 1 — Self-hosted Stats (fixes the 0s forever)</b></summary>
-
-**Why:** The public `github-readme-stats.vercel.app` is rate-limited and shows zeros for many accounts. This generates your own SVG files stored directly in your repo — no external dependency ever again.
-
-Create `.github/workflows/stats.yml`:
-
-```yaml
-name: Generate GitHub Stats SVGs
-
-on:
-  schedule:
-    - cron: "0 3 * * *"
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate stats SVG
-        uses: anuraghazra/github-readme-stats@latest
-        with:
-          username: Hanumanthumanoj01
-          commit_message: "chore: update stats SVGs"
-          output_folder: assets
-          cardType: stats
-          theme: tokyonight
-          hide_border: true
-          show_icons: true
-          count_private: true
-          include_all_commits: true
-        env:
-          INPUT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate top-langs SVG
-        uses: anuraghazra/github-readme-stats@latest
-        with:
-          username: Hanumanthumanoj01
-          commit_message: "chore: update langs SVG"
-          output_folder: assets
-          cardType: top-langs
-          theme: tokyonight
-          hide_border: true
-          layout: compact
-        env:
-          INPUT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-**Then:**
-1. Go to repo **Settings → Actions → General**
-2. Set **Workflow permissions** to **Read and write**
-3. Go to **Actions tab → Generate GitHub Stats SVGs → Run workflow**
-4. Done — `./assets/stats.svg` and `./assets/langs.svg` are now in your repo
-
-</details>
-
-<details>
-<summary><b>🐍 Step 2 — Contribution Snake animation</b></summary>
-
-Create `.github/workflows/snake.yml`:
-
-```yaml
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: Hanumanthumanoj01
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Run it manually once from the Actions tab to generate the SVG on the `output` branch.
-
-</details>
-
-<details>
-<summary><b>🏆 Step 3 — If Trophies still don't load</b></summary>
-
-Replace the trophy image URL with this mirror:
-
-```
-https://github-profile-trophy.vercel.app/?username=Hanumanthumanoj01&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=4&row=2
-```
-
-If still blank, it means your account doesn't have enough GitHub activity for trophies to render yet. Keep committing and they'll appear!
-
-</details>
