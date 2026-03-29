@@ -132,9 +132,9 @@ fun_fact: >
   After running the stats GitHub Action once, these paths will work:
   They point to SVG files generated inside YOUR OWN REPO — no rate limits ever.
 -->
-<img width="49%" src="https://raw.githubusercontent.com/Hanumanthumanoj01/Hanumanthumanoj01/main/assets/stats.svg"/ alt="GitHub Stats" onerror="this.style.display='none'"/>
-<img width="41%" src="https://raw.githubusercontent.com/Hanumanthumanoj01/Hanumanthumanoj01/main/assets/top-langs.svg"/  alt="Top Languages" onerror="this.style.display='none'"/>
 
+<img width="49%" src="https://raw.githubusercontent.com/Hanumanthumanoj01/Hanumanthumanoj01/main/assets/stats.svg" alt="GitHub Stats" />
+<img width="41%" src="https://raw.githubusercontent.com/Hanumanthumanoj01/Hanumanthumanoj01/main/assets/top-langs.svg" alt="Top Languages" />
 
 </div>
 
@@ -161,7 +161,7 @@ fun_fact: >
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Hanumanthumanoj01&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=4" width="96%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Hanumanthumanoj01&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=4" width="96%" alt="Trophies" />
 
 </div>
 
