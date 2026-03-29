@@ -124,8 +124,6 @@ fun_fact: >
 
 <h2 align="center">📊 GitHub Stats</h2>
 
-> ⚠️ **Stats showing zeros or not loading?** See the [Self-Hosted Stats Setup](#-one-time-setup--fix-everything-permanently) section below. It takes 5 minutes and fixes it permanently — your stats are then served from YOUR OWN repo, not a rate-limited public API.
-
 <div align="center">
 
 <!--
@@ -133,8 +131,7 @@ fun_fact: >
   They point to SVG files generated inside YOUR OWN REPO — no rate limits ever.
 -->
 
-<img width="49%" src="https://raw.githubusercontent.com/Hanumanthumanoj01/Hanumanthumanoj01/main/assets/stats.svg" alt="GitHub Stats" />
-<img width="41%" src="https://raw.githubusercontent.com/Hanumanthumanoj01/Hanumanthumanoj01/main/assets/top-langs.svg" alt="Top Languages" />
+<img height="180" src="https://gh-readme-profile.vercel.app/api?username=Hanumanthumanoj01&theme=tokyonight" alt="GitHub Stats" />
 
 </div>
 
