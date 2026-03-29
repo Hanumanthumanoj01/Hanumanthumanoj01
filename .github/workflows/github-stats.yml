@@ -24,22 +24,118 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Generate stats SVGs
+      - name: Generate stats SVGs via GitHub API
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p assets
+          python3 << 'EOF'
+          import requests, os, json
 
-          # --- Stats card ---
-          curl -s "https://github-readme-stats.vercel.app/api?username=Hanumanthumanoj01&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" \
-            -o assets/stats.svg
+          token = os.environ["GITHUB_TOKEN"]
+          username = "Hanumanthumanoj01"
+          headers = {"Authorization": f"bearer {token}"}
 
-          # --- Top languages card ---
-          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=Hanumanthumanoj01&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" \
-            -o assets/top-langs.svg
+          # --- GraphQL: get stats ---
+          query = """
+          {
+            user(login: "%s") {
+              name
+              repositoriesContributedTo(first: 1, contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]) {
+                totalCount
+              }
+              contributionsCollection {
+                totalCommitContributions
+                restrictedContributionsCount
+              }
+              repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {direction: DESC, field: STARGAZERS}) {
+                totalCount
+                nodes { stargazers { totalCount } languages(first: 10, orderBy: {field: SIZE, direction: DESC}) { edges { size node { name color } } } }
+              }
+              followers { totalCount }
+            }
+          }
+          """ % username
 
-          echo "✅ SVGs generated"
-          ls -lh assets/
+          r = requests.post("https://api.github.com/graphql", json={"query": query}, headers=headers)
+          data = r.json()["data"]["user"]
+
+          stars = sum(n["stargazers"]["totalCount"] for n in data["repositories"]["nodes"])
+          commits = data["contributionsCollection"]["totalCommitContributions"] + data["contributionsCollection"]["restrictedContributionsCount"]
+          repos = data["repositories"]["totalCount"]
+          followers = data["followers"]["totalCount"]
+          contrib_to = data["repositoriesContributedTo"]["totalCount"]
+
+          # --- Top Languages ---
+          lang_sizes = {}
+          for node in data["repositories"]["nodes"]:
+              for edge in node["languages"]["edges"]:
+                  name = edge["node"]["name"]
+                  color = edge["node"]["color"] or "#888"
+                  size = edge["size"]
+                  if name not in lang_sizes:
+                      lang_sizes[name] = {"size": 0, "color": color}
+                  lang_sizes[name]["size"] += size
+
+          total_size = sum(v["size"] for v in lang_sizes.values())
+          top_langs = sorted(lang_sizes.items(), key=lambda x: -x[1]["size"])[:8]
+
+          # ---- SVG: Stats Card ----
+          stats_svg = f"""<svg width="495" height="195" viewBox="0 0 495 195" xmlns="http://www.w3.org/2000/svg">
+            <style>
+              .title {{ font: bold 18px 'Segoe UI',sans-serif; fill: #70a5fd }}
+              .stat {{ font: 600 14px 'Segoe UI',sans-serif; fill: #a9b1d6 }}
+              .val  {{ font: bold 14px 'Segoe UI',sans-serif; fill: #c3d1ff }}
+            </style>
+            <rect width="495" height="195" rx="10" fill="#1a1b27" stroke="#414868" stroke-width="1"/>
+            <text x="25" y="35" class="title">📊 {username}'s GitHub Stats</text>
+            <line x1="25" y1="48" x2="470" y2="48" stroke="#414868" stroke-width="1"/>
+            <text x="40" y="75"  class="stat">⭐ Total Stars Earned:</text>  <text x="340" y="75"  class="val">{stars}</text>
+            <text x="40" y="103" class="stat">📦 Total Commits (2024):</text> <text x="340" y="103" class="val">{commits}</text>
+            <text x="40" y="131" class="stat">🗂️  Total Repos:</text>           <text x="340" y="131" class="val">{repos}</text>
+            <text x="40" y="159" class="stat">🤝 Contributed To:</text>        <text x="340" y="159" class="val">{contrib_to} repos</text>
+            <text x="40" y="187" class="stat">👥 Followers:</text>              <text x="340" y="187" class="val">{followers}</text>
+          </svg>"""
+
+          with open("assets/stats.svg", "w") as f:
+              f.write(stats_svg)
+
+          # ---- SVG: Top Languages ----
+          bar_y = 60
+          bars = ""
+          legend = ""
+          x_offset = 0
+          bar_width = 420
+          legend_x, legend_y = 25, 115
+          legend_col = 0
+
+          for i, (lang, info) in enumerate(top_langs):
+              pct = info["size"] / total_size if total_size else 0
+              w = bar_width * pct
+              bars += f'<rect x="{25 + x_offset}" y="{bar_y}" width="{w:.1f}" height="12" rx="3" fill="{info["color"]}"/>'
+              x_offset += w
+              lx = legend_x + (legend_col * 220)
+              ly = legend_y + ((i // 2) * 22)
+              legend += f'<circle cx="{lx+6}" cy="{ly-4}" r="6" fill="{info["color"]}"/>'
+              legend += f'<text x="{lx+16}" y="{ly}" font-family="Segoe UI,sans-serif" font-size="12" fill="#a9b1d6">{lang} {pct*100:.1f}%</text>'
+              legend_col = 1 - legend_col
+
+          rows_needed = (len(top_langs) + 1) // 2
+          svg_height = 100 + rows_needed * 22 + 20
+
+          langs_svg = f"""<svg width="495" height="{svg_height}" viewBox="0 0 495 {svg_height}" xmlns="http://www.w3.org/2000/svg">
+            <rect width="495" height="{svg_height}" rx="10" fill="#1a1b27" stroke="#414868" stroke-width="1"/>
+            <text x="25" y="35" font-family="Segoe UI,sans-serif" font-size="18" font-weight="bold" fill="#70a5fd">💻 Most Used Languages</text>
+            <line x1="25" y1="48" x2="470" y2="48" stroke="#414868" stroke-width="1"/>
+            {bars}
+            {legend}
+          </svg>"""
+
+          with open("assets/top-langs.svg", "w") as f:
+              f.write(langs_svg)
+
+          print("✅ Done — stats.svg and top-langs.svg written to assets/")
+          EOF
 
       - name: Commit and push
         run: |
