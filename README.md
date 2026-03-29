@@ -161,7 +161,8 @@ fun_fact: >
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Hanumanthumanoj01&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=4&row=2&cache_seconds=86400" width="96%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Hanumanthumanoj01&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=4" width="96%"/>
+
 </div>
 
 ---
