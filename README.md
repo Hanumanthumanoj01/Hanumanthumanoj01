@@ -23,7 +23,7 @@
 I'm a **Site Reliability Engineer & Cloud Engineer** based in **Frankfurt 🇩🇪**, keeping mission-critical financial systems running at **360T — Deutsche Börse Group**.
 
 **What I do every day:**
-- 🔥 **Incident triage** — before clients even notice
+- 🔥 **Incident triage ** — before clients even notice
 - 📊 **Log forensics** — Elasticsearch/Kibana deep dives
 - ☁️ **AWS infra** — architecture, IAM, cost control
 - 🤖 **Automation** — eliminating toil, one script at a time
